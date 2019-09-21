@@ -25,3 +25,6 @@ b1urls.txt
 
 HTML webpages uploaded:
 s200.html,s302.html,s404.html,s403.html 
+
+
+B2.pcapng is the wireshark capture.
