@@ -1,1 +1,9 @@
+READ ME .TXT CONTENT FOR THE TCP DUMP CAPTURING 
 
+INPUT  : The file to be uploaded the from client side to the server side 
+Client:- filezilla , psftp …..
+ 
+OUTPUT: The TCP dump captured  through the wireshark for the file uploaded from the client to server.  Output file is TCP dump file.
+Challenges faced :  while connecting to server from the client was little tough ,then while uploading  the file we came through the 
+bugs , That was the server setup connection problem.Then we resolved the bug and uploaded the files from client side to server side 
+using the filezilla and captured the tcp dump from the wireshark successfully.
