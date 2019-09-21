@@ -1,0 +1,4 @@
+200 - URL:http://202.62.79.36/~ks17cs002/s200.html
+302 - URL:http://202.62.79.36/~ks17cs002/s302.html
+404 - URL:http://202.62.79.36/~ks17cs002/s404.html
+403 - URL:http://202.62.79.36/~ks17cs002/s404.html
