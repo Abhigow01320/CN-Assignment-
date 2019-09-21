@@ -1,0 +1,7 @@
+1. Same subnet 
+ 
+   As the netmask is 18, the network number of first address is 10.20.0.0/18, and for 2nd address is 10.20.0.0/18
+
+2. Different subnet 
+
+   As the netmask is 21, the network number of first address is 10.20.24.0/21, and for 2nd address is 10.20.32.0/21
