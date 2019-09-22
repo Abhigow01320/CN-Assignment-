@@ -1,23 +1,29 @@
-Respository Link:
-https://github.com/Abhigow01320/CN-Assignment-
-
 1. Instruction to run the program:
 
-
 Program takes 3 arguments 
-Two IP Adresses and a subnet value and returns "Same subnet" if two IPs belong to same subnet, "Different subnet" if not.
+Two valid IP Adresses and a subnet value and returns "Same subnet" if two IPs belong to same subnet, "Different subnet" if not.
 
 2. Example inputs
+    
+    1.With No inputs or invalid inputs
+      $python IpSubnet.py 
+      $python IpSubnet.py 545451
+	
+    2.Input IPs of Invalid format
+      $python IpSubnet.py 111.222.333.444 100.200.300.400 15 
 
-
-1. 10.20.30.40  10.20.33.40  18
-2. 10.20.30.40  10.20.33.40  21
+    3.IPs belonging to same subnet 
+      $python IpSubnet.py 10.20.30.40  10.20.33.40  18 
+    
+     
+    4.IPs belonging to Different subnet 
+      $python IpSubnet.py 10.20.30.40  10.20.33.40  21
 
 
 3. Challenges faced:
 
-Spliting the input ip and converting that to binary was quite difficult, so we took help from the internet(stack overflow). This made the code shorter than ours.  
+Splitting the input ip and converting that to binary and validating input IP was quite challenging, so we took help from the internet(stack overflow). This made the code shorter than ours.  
 
 
-credits:
+References:
 https://stackoverflow.com/questions/18691147/determine-if-two-ip-addresses-are-the-same-network-python
