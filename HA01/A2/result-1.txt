@@ -1,7 +1,11 @@
-1. Same subnet 
- 
-   As the netmask is 18, the network number of first address is 10.20.0.0/18, and for 2nd address is 10.20.0.0/18
+1. Invalid Input
+    Programs must be provided with two valid IP address else program throws an exception.
 
-2. Different subnet 
+2. Invalid IP
+    All the octates of the IP must be in specified range and in specific format else program throws an exception. 
 
-   As the netmask is 21, the network number of first address is 10.20.24.0/21, and for 2nd address is 10.20.32.0/21
+3. Same subnet 
+    As the netmask is 18, the network number of first address is 10.20.0.0/18, and for 2nd address is 10.20.0.0/18
+
+4. Different subnet 
+    As the netmask is 21, the network number of first address is 10.20.24.0/21, and for 2nd address is 10.20.32.0/21
