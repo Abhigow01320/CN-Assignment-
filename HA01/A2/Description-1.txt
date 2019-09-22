@@ -23,7 +23,8 @@ Two valid IP Adresses and a subnet value and returns "Same subnet" if two IPs be
 3. Challenges faced:
 
 Splitting the input ip and converting that to binary and validating input IP was quite challenging.
-As our problem was more concerned with finding out whether or not the ip addresses belongs to same subnet, we used socket to validate the ip addresses and we took help from the internet(stack overflow) to read and convert the input ip to binary.
+As our problem was more concerned with finding out whether or not the ip addresses belongs to same subnet, 
+we used socket to validate the ip addresses and we took help from the internet(stack overflow) to read and convert the input ip to binary.
 This made the code shorter than ours.
 We learnt the working of list comprehension in python more precisely while doing this.  
 
